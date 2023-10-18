@@ -2,7 +2,7 @@ import '../styles/main.css';
 import { Dispatch, SetStateAction, useState } from 'react';
 import { ControlledInput } from './ControlledInput';
 import { Component } from 'react';
-import { csvDict } from '../../data/mocked_json';
+import { csvDict } from '../data/mocked_json';
 
 interface REPLInputProps {
   table: string[][];

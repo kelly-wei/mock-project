@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mock-project/static/css/main.551b41f8.css",
+    "main.js": "/mock-project/static/js/main.720efdb8.js",
+    "index.html": "/mock-project/index.html",
+    "main.551b41f8.css.map": "/mock-project/static/css/main.551b41f8.css.map",
+    "main.720efdb8.js.map": "/mock-project/static/js/main.720efdb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.551b41f8.css",
+    "static/js/main.720efdb8.js"
+  ]
+}

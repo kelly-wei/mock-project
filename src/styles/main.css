@@ -1,0 +1,81 @@
+/*
+  This is a reasonable starting point for the CSS in Mock.
+  Positioning in CSS can sometimes be annoying to manage, so we've opted to 
+  give you this starter CSS. Feel free to modify it as you wish, though.
+*/
+
+.repl {
+    position:relative;
+    margin: auto;   
+}
+
+.row::after{
+    display: table;
+}
+
+.display{
+    overflow: scroll;
+    display: block;
+    width: 50%;
+    float: right;
+    height: 38vh;
+    padding-bottom: 10vh;
+}
+
+.repl-history {      
+    overflow: scroll;   
+    display: block;
+    float: left;
+    width: 50%;
+    height: 38vh;
+    padding-bottom: 10vh;
+}
+
+.repl-mode {        
+    margin: auto;    
+    width: 100vw;
+    display: block;
+    position: fixed;
+    bottom: 20%;
+}
+
+.repl-input {        
+    margin: auto;    
+    position:fixed;
+    width: 100vw;
+    bottom: 0;
+}
+
+.repl-command-box {
+    width: 90%;            
+    margin: auto;
+    display: block;
+}
+
+.command{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    margin: auto;
+    display: block;
+    background-color: lightblue;
+}
+
+button:hover {
+    background-color:pink;
+}
+
+table{
+    float: center;
+    align-items: center;
+    width: 100%;
+    border-style: solid;
+}
+
+h3{
+    text-align: center;
+    background-color: lightblue;
+    width: 50%;
+    margin: auto;
+}
